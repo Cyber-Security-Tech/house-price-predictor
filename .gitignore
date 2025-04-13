@@ -1,0 +1,21 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Data & model artifacts
+/data/*.csv
+/models/*.pkl
+/models/*.joblib
+
+# Virtual environment
+env/
+venv/
+
+# Jupyter notebook config
+.ipynb_checkpoints
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
