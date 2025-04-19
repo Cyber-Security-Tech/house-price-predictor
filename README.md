@@ -39,11 +39,26 @@ Feature selection was informed by correlation heatmaps and Random Forest feature
 
 ## 📸 Visualizations
 
-All visuals were saved to the `/visuals/` directory:
+All visuals are saved in the `/visuals/` directory and showcased below:
 
-- 📍 Actual vs Predicted  
-- 🔥 Correlation Heatmap  
-- 🌲 Feature Importance (Random Forest)
+### 🎯 Actual vs Predicted Prices
+Shows how well the model’s predictions align with actual sale prices.
+
+![Actual vs Predicted](visuals/actual_vs_predicted.png)
+
+---
+
+### 🔥 Correlation Heatmap
+Used to select the most relevant features based on their correlation with sale price.
+
+![Correlation Heatmap](visuals/correlation_heatmap.png)
+
+---
+
+### 🌲 Feature Importance (Random Forest)
+Highlights the most influential features in the Random Forest model.
+
+![Feature Importance](visuals/feature_importance.png)
 
 ---
 
@@ -69,6 +84,7 @@ All visuals were saved to the `/visuals/` directory:
 ```
 house-price-predictor/
 ├── data/              # Raw CSVs (not committed)
+├── models/            # (Optional) Saved models
 ├── notebooks/         # Jupyter notebook (main.ipynb)
 ├── visuals/           # Saved charts for README/docs
 ├── requirements.txt   # Python libraries used
